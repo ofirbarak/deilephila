@@ -1,0 +1,10 @@
+src:
+  URI: "mongodb://localhost:27017"
+  database: "test"
+dst:
+  URI: "neo4j://localhost:7687"
+  username: "neo4j"
+  password: "neo4j"
+  database: "neo4j"
+sync:
+  workers: 5
